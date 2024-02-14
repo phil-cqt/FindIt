@@ -1,55 +1,68 @@
-import { useState, useEffect } from "react";
-import Layout from "../components/Layout";
-import RandomQuotes from "random-quotes";
+// src/pages/index.js
 
-export default function Home() {
-  const [quote, setQuote] = useState({});
+import React from 'react';
+import Link from 'next/link';
 
-  useEffect(() => {
-    // Fetch a random quote when the component mounts
-    const fetchRandomQuote = () => {
-      const quote = RandomQuotes();
-      setQuote(quote);
-    };
+const Home = () => {
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    height: '100vh',
+    marginTop: '50px',
+  };
 
-    fetchRandomQuote();
-  }, []);
+  const categoryStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  };
+
+  const rectangleStyle = {
+    width: '350px',
+    height: '500px',
+    border: '2px solid black',
+    margin: '15px',
+    backgroundImage: 'url("/vetements.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    cursor: 'pointer', // Ajoutez cette ligne pour indiquer que c'est un lien cliquable
+  };
+
+  const textStyle = {
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: '10px',
+    fontSize: '18px',
+  };
 
   return (
-    <Layout>
-      <main className="flex flex-col justify-center dark:text-gray-400">
-        <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-md shadow-md">
-          <h1 className="text-2xl font-bold mb-4 text-blue-500 dark:text-blue-400">
-            Welcome to our Digital Publishing Platform!
-          </h1>
-          <p className="text-gray-700 dark:text-gray-300">
-            Welcome to our digital publishing platform, where we showcase the
-            culmination of our semester&apos;s learning journey. Our platform is
-            designed to empower users to create, publish, and share content
-            seamlessly. Whether you are a seasoned writer, a passionate chef, or
-            an avid traveler, our application caters to diverse interests,
-            allowing users to express themselves and engage with a community of
-            like-minded individuals.
-          </p>
-        </div>
-        <div className="text-center mt-8">
-          {quote && (
-            <div className="mt-4">
-              <p className="underline text-blue-500 dark:text-blue-400">
-                Here is the quote of the Day:
-              </p>
-              <blockquote className="italic font-serif">
-                <p className="text-gray-700 dark:text-gray-300">
-                  &ldquo;{quote.body}&ldquo;
-                </p>
-                <footer className="text-gray-600 dark:text-gray-400">
-                  - {quote.author}
-                </footer>
-              </blockquote>
-            </div>
-          )}
-        </div>
-      </main>
-    </Layout>
+    <div>
+      <div style={containerStyle}>
+        <Link href="/vetements" passHref>
+          <div style={categoryStyle}>
+            <div style={rectangleStyle}></div>
+            <p style={textStyle}>Vêtements</p>
+          </div>
+        </Link>
+        
+        <Link href="/brico" passHref>
+          <div style={categoryStyle}>
+            <div style={{ ...rectangleStyle, backgroundImage: 'url("/brico.png")' }}></div>
+            <p style={textStyle}>Brico</p>
+          </div>
+        </Link>
+
+        <Link href="/deco" passHref>
+          <div style={categoryStyle}>
+            <div style={{ ...rectangleStyle, backgroundImage: 'url("/deco.png")' }}></div>
+            <p style={textStyle}>Décoration</p>
+          </div>
+        </Link>
+      </div>
+      {/* Le reste de votre contenu de page */}
+    </div>
   );
-}
+};
+
+export default Home;
