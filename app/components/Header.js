@@ -60,7 +60,15 @@ const Header = () => {
         <Image src={logo} alt="Logo" style={logoStyle} />
       </button>
       <div className="search-bar" style={searchBarStyle}>
-        <input type="text" placeholder="Rechercher..." style={inputStyle} />
+        <form onSubmit={handleSearch}>
+          <input 
+            type="text" 
+            placeholder="Rechercher..." 
+            style={inputStyle} 
+            value={searchTerm} 
+            onChange={(e) => setSearchTerm(e.target.value)} 
+          />
+        </form>
       </div>
       <div className="right-buttons" style={buttonStyle}>
         <button style={compteButtonStyle}>Compte</button>
