@@ -1,10 +1,20 @@
-// src/components/Header.js
-
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import logo from '../public/finditLogo.png';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Header = () => {
+  const router = useRouter();
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchTerm.trim() !== '') {
+      router.push(`/articles?q=${encodeURIComponent(searchTerm)}`);
+    }
+  };
+
   const headerStyle = {
     display: 'flex',
     justifyContent: 'space-between',
@@ -39,11 +49,16 @@ const Header = () => {
     width: '100%', // Ajustez la largeur de la barre de recherche
   };
 
+  const handleLogoClick = () => {
+    router.push('/');
+  };
+
   return (
     <div style={headerStyle}>
-      <div className="logo">
+      {/* Logo button */}
+      <button onClick={handleLogoClick}>
         <Image src={logo} alt="Logo" style={logoStyle} />
-      </div>
+      </button>
       <div className="search-bar" style={searchBarStyle}>
         <input type="text" placeholder="Rechercher..." style={inputStyle} />
       </div>
