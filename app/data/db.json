@@ -1,0 +1,25 @@
+{
+    "stores": [
+      {
+        "name": "Diimsphone",
+        "address": "1 Rue du Gros Chêne",
+        "city": "Chaville",
+        "latitude": 48.8105020152351, 
+        "longitude": 2.1933650846547685,
+        "productType": "chargeur",
+        "hours": "24h/24h",
+        "website": ""
+      },
+      {
+        "name": "Magasin B",
+        "city": "Paris",
+        "address": "456 Avenue du Commerce",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "productType": "cable",
+        "hours": "24h/24h",
+        "website": ""
+      }
+    ]
+  }
+  

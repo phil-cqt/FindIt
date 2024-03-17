@@ -1,4 +1,4 @@
-// src/pages/index.js
+// index.js
 
 import React from 'react';
 import Link from 'next/link';
@@ -19,14 +19,13 @@ const Home = () => {
   };
 
   const rectangleStyle = {
-    width: '350px',
+    width: '375px',
     height: '500px',
     border: '2px solid black',
     margin: '15px',
-    backgroundImage: 'url("/vetements.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    cursor: 'pointer', // Ajoutez cette ligne pour indiquer que c'est un lien cliquable
+    cursor: 'pointer',
   };
 
   const textStyle = {
@@ -39,28 +38,27 @@ const Home = () => {
   return (
     <div>
       <div style={containerStyle}>
-        <Link href="/vetements" passHref>
+        <Link href="/select-city?productType=chargeur" passHref>
           <div style={categoryStyle}>
-            <div style={rectangleStyle}></div>
-            <p style={textStyle}>Vêtements</p>
+            <div style={{ ...rectangleStyle, backgroundImage: 'url("/chargeur.jpg")' }}></div>
+            <p style={textStyle}>Chargeurs</p>
           </div>
         </Link>
         
-        <Link href="/brico" passHref>
+        <Link href="/select-city?productType=cable" passHref>
           <div style={categoryStyle}>
-            <div style={{ ...rectangleStyle, backgroundImage: 'url("/brico.png")' }}></div>
-            <p style={textStyle}>Brico</p>
+            <div style={{ ...rectangleStyle, backgroundImage: 'url("/UsbC.jpg")' }}></div>
+            <p style={textStyle}>Câbles</p>
           </div>
         </Link>
 
-        <Link href="/deco" passHref>
+        <Link href="/select-city?productType=plug" passHref>
           <div style={categoryStyle}>
-            <div style={{ ...rectangleStyle, backgroundImage: 'url("/deco.png")' }}></div>
-            <p style={textStyle}>Décoration</p>
+            <div style={{ ...rectangleStyle, backgroundImage: 'url("/plug.jpg")' }}></div>
+            <p style={textStyle}>Blocs de connection</p>
           </div>
         </Link>
       </div>
-      {/* Le reste de votre contenu de page */}
     </div>
   );
 };
