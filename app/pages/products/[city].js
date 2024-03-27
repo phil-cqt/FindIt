@@ -7,20 +7,21 @@ import storesData from '../../data/db.json'; // Importer les données des magasi
 const ProductByCity = () => {
   const router = useRouter();
   const { city } = router.query; // Récupérer le nom de la ville depuis l'URL
+  const { productType } = router.query; // Récupérer le type de produit depuis l'URL
 
   const [stores, setStores] = useState([]); // État pour stocker les magasins
 
   useEffect(() => {
-    if (city) {
-      // Filtrer les magasins en fonction de la ville
-      const filteredStores = storesData.stores.filter(store => store.city === city);
+    if (city && productType) {
+      // Filtrer les magasins en fonction de la ville et du type de produit
+      const filteredStores = storesData.stores.filter(store => store.city === city && store.productType === productType);
       setStores(filteredStores);
     }
-  }, [city]); // Mettre la ville en dépendance
+  }, [city, productType]); // Mettre la ville et le type de produit en dépendance
 
   return (
     <div>
-      <h1>Magasins à {city} :</h1>
+      <h1>Magasins à {city} vendant des {productType} :</h1>
       {/* Afficher toutes les informations des magasins */}
       <ul>
         {stores.map(store => (
