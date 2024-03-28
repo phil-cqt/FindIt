@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link'; // Importer Link depuis next/link
 import storesData from '../../data/db.json'; // Importer les données des magasins depuis le fichier JSON
 
 const ProductByCity = () => {
@@ -34,6 +35,11 @@ const ProductByCity = () => {
           </li>
         ))}
       </ul>
+
+      {/* Ajouter le lien vers la page de la carte avec le bouton "Afficher sur la carte" */}
+      <Link href={`/GoogleMap?city=${city}&productType=${productType}`} passHref>
+        <button>Afficher sur la carte</button>
+      </Link>
     </div>
   );
 };

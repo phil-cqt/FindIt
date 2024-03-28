@@ -4,8 +4,18 @@
         "name": "Diimsphone",
         "address": "1 Rue du Gros Chêne",
         "city": "Chaville",
-        "latitude": 48.8105020152351, 
-        "longitude": 2.1933650846547685,
+        "latitude": 48.8103854058223, 
+        "longitude": 2.1933650818248442, 
+        "productType": "chargeur",
+        "hours": "24h/24h",
+        "website": ""
+      },
+      {
+        "name": "Magasin A",
+        "city": "Chaville",
+        "address": "123 Rue de la République",
+        "latitude": 48.80898394938175,
+        "longitude":  2.19199290376553352,
         "productType": "chargeur",
         "hours": "24h/24h",
         "website": ""
