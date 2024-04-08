@@ -1,5 +1,3 @@
-// pages/GoogleMap.js
-
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
@@ -47,15 +45,22 @@ const GoogleMapPage = () => {
     if (isLoaded) {
       const map = new google.maps.Map(document.getElementById("map"), {
         center: center,
-        zoom: 12,
+        zoom: 15,
       });
 
-      // Ajouter un marqueur pour chaque magasin
+      // Ajouter un marqueur personnalisé pour chaque magasin
       stores.forEach(store => {
         new google.maps.Marker({
           position: new google.maps.LatLng(store.latitude, store.longitude),
           map: map,
           title: store.name,
+          label: {
+            text: store.name,
+            color: 'black',
+            fontWeight: 'bold',
+            fontSize: '12px',
+            anchor: new google.maps.Point(0, -30), // Déplacer le label vers le haut
+          },
         });
       });
     }
