@@ -1,57 +1,78 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
-import storesData from '../data/db.json'; // Importer les données des magasins depuis le fichier JSON
+import storesData from '../data/db.json'; // Import store data from JSON file
 
 const GoogleMapPage = () => {
   const router = useRouter();
-  const { city } = router.query; // Récupérer le nom de la ville depuis l'URL
-  const { productType } = router.query; // Récupérer le type de produit depuis l'URL
+  const { city, productType } = router.query;
 
-  const [stores, setStores] = useState([]); // État pour stocker les magasins correspondants à la ville et au type de produit
-
-  useEffect(() => {
-    if (city && productType) {
-      // Filtrer les magasins en fonction de la ville et du type de produit
-      const filteredStores = storesData.stores.filter(store => store.city === city && store.productType === productType);
-      setStores(filteredStores);
-    }
-  }, [city, productType]); // Mettre la ville et le type de produit en dépendance
+  const [stores, setStores] = useState([]);
+  const [map, setMap] = useState(null); // State to store the map object
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyCbvmgC5mB4AgHDE8jcahzx2ISJ_EmNurc', // Remplacez par votre clé API Google Maps
+    googleMapsApiKey: 'AIzaSyCbvmgC5mB4AgHDE8jcahzx2ISJ_EmNurc',
   });
-
-  const containerStyle = {
-    width: '100%',
-    height: '100vh',
-  };
-
-  const center = {
-    lat: 0, // Définir la latitude par défaut à 0
-    lng: 0, // Définir la longitude par défaut à 0
-  };
-
-  // Calculer le centre de la carte en fonction de la ville sélectionnée
-  if (stores.length > 0) {
-    const cityCoordinates = stores[0].latitude; // Récupérer la latitude de la première occurrence de la ville dans les magasins
-    const cityLongitude = stores[0].longitude; // Récupérer la longitude de la première occurrence de la ville dans les magasins
-    center.lat = cityCoordinates; // Définir la latitude du centre de la carte
-    center.lng = cityLongitude; // Définir la longitude du centre de la carte
-  }
 
   useEffect(() => {
     if (isLoaded) {
-      const map = new google.maps.Map(document.getElementById("map"), {
-        center: center,
-        zoom: 15,
-      });
+      if (city === 'PositionActuelle') {
+        navigator.geolocation.getCurrentPosition(
+          position => {
+            const center = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude,
+            };
+            setMap(new google.maps.Map(document.getElementById("map"), {
+              center: center,
+              zoom: 15,
+            }));
 
-      // Ajouter un marqueur personnalisé pour chaque magasin
+            // Load stores for current position
+            setStores(storesData.stores.filter(store => store.productType === productType));
+          },
+          error => {
+            console.error('Error getting current position:', error);
+            // If geolocation fails, fallback to default center
+            setMap(new google.maps.Map(document.getElementById("map"), {
+              center: { lat: 0, lng: 0 },
+              zoom: 15,
+            }));
+          }
+        );
+      } else{
+        // Otherwise, center the map based on the selected 
+        const filteredStores = storesData.stores.filter(store => store.city === city && store.productType === productType);
+        
+        if (filteredStores.length > 0) {
+          const center = {
+            lat: filteredStores[0].latitude,
+            lng: filteredStores[0].longitude,
+          }
+          setMap(new google.maps.Map(document.getElementById("map"), {
+            center: center,
+            zoom: 15,
+          }));
+
+          // Load stores for selected city
+          setStores(filteredStores);
+        }
+        else {
+          setMap(new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 0, lng: 0 },
+            zoom: 15,
+          }));
+        }
+      }
+    }
+  }, [isLoaded, city, productType]);
+
+  useEffect(() => {
+    if (isLoaded && map) {
       stores.forEach(store => {
         new google.maps.Marker({
-          position: new google.maps.LatLng(store.latitude, store.longitude),
+          position: { lat: store.latitude, lng: store.longitude },
           map: map,
           title: store.name,
           label: {
@@ -59,17 +80,17 @@ const GoogleMapPage = () => {
             color: 'black',
             fontWeight: 'bold',
             fontSize: '12px',
-            anchor: new google.maps.Point(0, -30), // Déplacer le label vers le haut
+            anchor: new google.maps.Point(0, -30),
           },
         });
       });
     }
-  }, [isLoaded, stores]); // Mettre isLoaded et stores en dépendance
+  }, [isLoaded, map, stores]);
 
   return (
     <div>
       {isLoaded ? (
-        <div id="map" style={containerStyle}></div>
+        <div id="map" style={{ width: '100%', height: '100vh' }}></div>
       ) : (
         <p>Loading Map...</p>
       )}
