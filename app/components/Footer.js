@@ -8,14 +8,14 @@ const Footer = () => {
     backgroundColor: '#333',
     color: '#fff',
     padding: '10px',
-    textAlign: 'center',
+    textAlign: 'right',
   };
 
   return (
     <footer style={footerStyle}>
       <div>
         <p>Contact: PPEfindIt@gmail.com</p>
-        <p>© 2023 Votre Nom ou Nom de l'Entreprise. Tous droits réservés.</p>
+        <p>© 2024 FindIt. Tous droits réservés.</p>
       </div>
     </footer>
   );

@@ -5,12 +5,15 @@ import Footer from "../components/Footer.js";
 
 export default function Layout({ children, title, description }) {
   return (
-      <div className="dark:bg-slate-800 pt-8">
-        <Header />
-        <main className="py-10 min-h-screen max-w-full md:max-w-2xl md:mx-auto">
-          {children}
-        </main>
-        <Footer />
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Header />
+      <main className="flex-grow">{children}</main>
+      <Footer />
+    </div>
   );
 }

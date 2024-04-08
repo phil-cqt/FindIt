@@ -36,26 +36,26 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <div style={containerStyle}>
+    <div className="flex justify-center m-10 h-screen">
+      <div className="flex justify-between">
         <Link href="/select-city?productType=chargeur" passHref>
-          <div style={categoryStyle}>
-            <div style={{ ...rectangleStyle, backgroundImage: 'url("/chargeur.jpg")' }}></div>
-            <p style={textStyle}>Chargeurs</p>
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
+            <img src="/chargeur.jpg" alt="Chargeurs" className="object-cover rounded-lg h-48 w-full mb-4" />
+            <p className="text-lg font-semibold">Chargeurs</p>
           </div>
         </Link>
         
         <Link href="/select-city?productType=cable" passHref>
-          <div style={categoryStyle}>
-            <div style={{ ...rectangleStyle, backgroundImage: 'url("/UsbC.jpg")' }}></div>
-            <p style={textStyle}>Câbles</p>
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
+            <img src="/UsbC.jpg" alt="Câbles" className="object-cover rounded-lg h-48 w-full mb-4" />
+            <p className="text-lg font-semibold">Câbles</p>
           </div>
         </Link>
 
         <Link href="/select-city?productType=plug" passHref>
-          <div style={categoryStyle}>
-            <div style={{ ...rectangleStyle, backgroundImage: 'url("/plug.jpg")' }}></div>
-            <p style={textStyle}>Blocs de connection</p>
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
+            <img src="/plug.jpg" alt="Blocs de connection" className="object-cover rounded-lg h-48 w-full mb-4" />
+            <p className="text-lg font-semibold">Blocs de connection</p>
           </div>
         </Link>
       </div>

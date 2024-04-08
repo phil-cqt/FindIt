@@ -1,79 +1,34 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import logo from '../public/finditLogo.png';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import React from "react";
+import Link from "next/link";
 
-const Header = () => {
-  const router = useRouter();
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const handleSearch = (e) => {
-    e.preventDefault();
-    if (searchTerm.trim() !== '') {
-      router.push(`/articles?q=${encodeURIComponent(searchTerm)}`);
-    }
-  };
-
-  const headerStyle = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '10px',
-    backgroundColor: '#333', // Couleur de fond de l'en-tête, à personnaliser
-    color: '#fff', // Couleur du texte, à personnaliser
-  };
-
-  const logoStyle = {
-    width: '100px', // Ajustez la taille de votre logo
-  };
-
-  const searchBarStyle = {
-    marginLeft: '10px', // Ajustez la marge entre le logo et la barre de recherche
-    flex: '1', // Pour permettre à la barre de recherche de prendre plus de place
-  };
-
-  const buttonStyle = {
-    marginLeft: '10px', // Ajustez la marge entre les boutons
-  };
-
-  const compteButtonStyle = {
-    marginRight: '10px', // Ajout de marge à droite pour le bouton "Compte"
-  };
-
-  const inputStyle = {
-    color: '#333', // Couleur du texte dans la barre de recherche
-    backgroundColor: '#fff', // Couleur de fond dans la barre de recherche
-    border: '1px solid #ccc', // Bordure pour la barre de recherche
-    padding: '5px', // Espace intérieur dans la barre de recherche
-    width: '100%', // Ajustez la largeur de la barre de recherche
-  };
-
-  const handleLogoClick = () => {
-    router.push('/');
-  };
-
+const Header = ({ onClickLogin }) => {
   return (
-    <div style={headerStyle}>
-      {/* Logo button */}
-      <button onClick={handleLogoClick}>
-        <Image src={logo} alt="Logo" style={logoStyle} />
-      </button>
-      <div className="search-bar" style={searchBarStyle}>
-        <form onSubmit={handleSearch}>
-          <input 
-            type="text" 
-            placeholder="Rechercher..." 
-            style={inputStyle} 
-            value={searchTerm} 
-            onChange={(e) => setSearchTerm(e.target.value)} 
+    <div className="flex justify-between items-center p-4 bg-gray-600 text-white">
+      {/* Find'It title */}
+      <Link href="/" passHref>
+        <h1 className="cursor-pointer text-2xl font-bold">Find'It</h1>
+      </Link>
+      
+      {/* Account button */}
+      <button
+        className="flex items-center gap-2 hover:text-slate-200"
+      >
+        <svg
+          className="w-6 h-6 text-gray-800 dark:text-white"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fillRule="evenodd"
+            d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
+            clipRule="evenodd"
           />
-        </form>
-      </div>
-      <div className="right-buttons" style={buttonStyle}>
-        <button style={compteButtonStyle}>Compte</button>
-        <button>Aide</button>
-      </div>
+        </svg>
+      </button>
     </div>
   );
 };
