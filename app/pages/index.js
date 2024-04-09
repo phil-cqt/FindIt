@@ -36,7 +36,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-300 p-10">
       <h1 className="text-3xl font-bold text-center pt-10">Electronique</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
