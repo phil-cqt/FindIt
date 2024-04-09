@@ -51,7 +51,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=cable" passHref>
+          <Link href="/select-city?productType=ecouteurs" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/ecouteurs.jpeg"
@@ -62,7 +62,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=plug" passHref>
+          <Link href="/select-city?productType=batterie" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
               <img
                 src="/batterie.jpg"
@@ -77,7 +77,7 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mt-10">Mode</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
-          <Link href="/select-city?productType=chargeur" passHref>
+          <Link href="/select-city?productType=tshirt" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/t-shirt.jpg"
@@ -88,7 +88,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=cable" passHref>
+          <Link href="/select-city?productType=pantalon" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/pantalon.jpg"
@@ -99,7 +99,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=plug" passHref>
+          <Link href="/select-city?productType=chaussures" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
               <img
                 src="/chaussures.webp"
@@ -114,7 +114,7 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mt-10">Cosmétique</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
-          <Link href="/select-city?productType=chargeur" passHref>
+          <Link href="/select-city?productType=creme" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/crème.jpg"
@@ -125,7 +125,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=cable" passHref>
+          <Link href="/select-city?productType=levre" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/rouge.jpg"
@@ -136,7 +136,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=plug" passHref>
+          <Link href="/select-city?productType=palette" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
               <img
                 src="/palette.jpg"
