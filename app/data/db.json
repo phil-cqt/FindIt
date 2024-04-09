@@ -11,25 +11,264 @@
         "website": ""
       },
       {
-        "name": "Magasin A",
-        "city": "Chaville",
-        "address": "123 Rue de la République",
-        "latitude": 48.80898394938175,
-        "longitude":  2.19199290376553352,
+        "name": "Fnac Paris-Beaugrenelle",
+        "address": "5 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84827786209352,  
+        "longitude": 2.282331214126032, 
         "productType": "chargeur",
-        "hours": "24h/24h",
+        "hours": "10h00-20h00",
+        "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
+      },
+      {
+        "name": "Fnac Paris-Beaugrenelle",
+        "address": "5 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84827786209352,  
+        "longitude": 2.282331214126032, 
+        "productType": "batterieExterne",
+        "hours": "10h00-20h00",
+        "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
+      },
+      {
+        "name": "Fnac Paris-Beaugrenelle",
+        "address": "5 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84827786209352,  
+        "longitude": 2.282331214126032, 
+        "productType": "ecouteurs",
+        "hours": "10h00-20h00",
+        "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
+      },
+      {
+        "name": "Boulanger Paris Beaugrenelle",
+        "address": "70 Av. Emile Zola",
+        "city": "ParisXVe",
+        "latitude": 48.8463108280123,   
+        "longitude": 2.284989735430745, 
+        "productType": "chargeur",
+        "hours": "10h00-20h00",
+        "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
+      },
+      {
+        "name": "Boulanger Paris Beaugrenelle",
+        "address": "70 Av. Emile Zola",
+        "city": "ParisXVe",
+        "latitude": 48.8463108280123,   
+        "longitude": 2.284989735430745, 
+        "productType": "batterieExterne",
+        "hours": "10h00-20h00",
+        "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
+      },
+      {
+        "name": "Boulanger Paris Beaugrenelle",
+        "address": "70 Av. Emile Zola",
+        "city": "ParisXVe",
+        "latitude": 48.8463108280123,   
+        "longitude": 2.284989735430745, 
+        "productType": "ecouteurs",
+        "hours": "10h00-20h00",
+        "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
+      },
+
+      {
+        "name": "Grosbill Paris 15",
+        "address": "1 Rue Beaugrenelle",
+        "city": "ParisXVe",
+        "latitude": 48.8480335914215,    
+        "longitude": 2.2847541017696447, 
+        "productType": "chargeur",
+        "hours": "10h00-20h00",
+        "website": "https://paris15.grosbill.com/"
+      },
+      {
+        "name": "Grosbill Paris 15",
+        "address": "1 Rue Beaugrenelle",
+        "city": "ParisXVe",
+        "latitude": 48.8480335914215,    
+        "longitude": 2.2847541017696447, 
+        "productType": "batterieExterne",
+        "hours": "10h00-19h00",
+        "website": "https://paris15.grosbill.com/"
+      },
+
+      {
+        "name": "INFOMAC",
+        "address": "1 Rue Beaugrenelle",
+        "city": "ParisXVe",
+        "latitude": 48.844168201896935,     
+        "longitude": 2.291142717965927, 
+        "productType": "chargeur",
+        "hours": "10h00-13h00 et 14h00-18h30",
+        "website": "https://www.infomacparis.fr/"
+      },
+
+      {
+        "name": "INFOMAC",
+        "address": "1 Rue Beaugrenelle",
+        "city": "ParisXVe",
+        "latitude": 48.844168201896935,     
+        "longitude": 2.291142717965927, 
+        "productType": "ecouteurs",
+        "hours": "10h00-13h00 et 14h00-18h30",
+        "website": "https://www.infomacparis.fr/"
+      },
+
+      
+
+      {
+        "name": "LDLC Paris Beaugrenelle",
+        "address": "12-14 Rue de l'Eglise",
+        "city": "ParisXVe",
+        "latitude": 48.845075681464934,    
+        "longitude": 2.285490394217903, 
+        "productType": "chargeur",
+        "hours": "10h00-19h00",
+        "website": "https://www.ldlc.com/magasins-ldlc/magasin-470021/75-ldlc-paris-beaugrenelle/"
+      },
+
+      {
+        "name": "Centre de Réparation Téléphone et Ordinateur",
+        "address": "49 Rue des Entrepreneurs",
+        "city": "ParisXVe",
+        "latitude": 48.84581899099216,     
+        "longitude": 2.287747527618661, 
+        "productType": "chargeur",
+        "hours": "10h30-19h30",
         "website": ""
       },
       {
-        "name": "Magasin B",
-        "city": "Paris",
-        "address": "456 Avenue du Commerce",
-        "latitude": 48.8566,
-        "longitude": 2.3522,
-        "productType": "cable",
-        "hours": "24h/24h",
-        "website": ""
+        "name": "UNIQLO BEAUGRENELLE",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.8478374822753,      
+        "longitude": 2.283550947742627, 
+        "productType": "tshirt",
+        "hours": "10h00-20h00",
+        "website": "https://www.uniqlo.com/fr/fr/home"
+      },
+      {
+        "name": "UNIQLO BEAUGRENELLE",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.8478374822753,      
+        "longitude": 2.283550947742627, 
+        "productType": "pantalon",
+        "hours": "10h00-20h00",
+        "website": "https://www.uniqlo.com/fr/fr/home"
+      },
+      {
+        "name": "Promod",
+        "address": "21 Rue du Commerce",
+        "city": "ParisXVe",
+        "latitude": 48.848067794365726,      
+        "longitude": 2.296909046562805, 
+        "productType": "chaussures",
+        "hours": "10h00-19h30",
+        "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
+      },
+      {
+        "name": "Promod",
+        "address": "21 Rue du Commerce",
+        "city": "ParisXVe",
+        "latitude": 48.848067794365726,      
+        "longitude": 2.296909046562805, 
+        "productType": "tshirt",
+        "hours": "10h00-19h30",
+        "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
+      },
+      {
+        "name": "Promod",
+        "address": "21 Rue du Commerce",
+        "city": "ParisXVe",
+        "latitude": 48.848067794365726,      
+        "longitude": 2.296909046562805, 
+        "productType": "pantalon",
+        "hours": "10h00-19h30",
+        "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
+      },
+      {
+        "name": "Eram Paris St Charles",
+        "address": "102 Rue St Charles",
+        "city": "ParisXVe",
+        "latitude": 48.845526969082755,       
+        "longitude": 2.2843408580068347, 
+        "productType": "chaussures",
+        "hours": "10h00-19h00",
+        "website": "https://www.eram.fr/"
+      },
+
+      {
+        "name": "MONAN CHAUSSURES",
+        "address": "102 Rue St Charles",
+        "city": "ParisXVe",
+        "latitude": 48.849976685917575,        
+        "longitude": 2.2939431663487637, 
+        "productType": "chaussures",
+        "hours": "10h30-19h00",
+        "website": "http://www.monanchaussures.com/monanchaussures/monan.html"
+      },
+      {
+        "name": "H&M",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84820465587957,       
+        "longitude": 2.282127204749864, 
+        "productType": "tshirt",
+        "hours": "10h00-20h00",
+        "website": "https://www2.hm.com/fr_fr/index.html"
+      },
+      {
+        "name": "H&M",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84820465587957,       
+        "longitude": 2.282127204749864, 
+        "productType": "pantalon",
+        "hours": "10h00-20h00",
+        "website": "https://www2.hm.com/fr_fr/index.html"
+      },
+      {
+        "name": "H&M",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84820465587957,       
+        "longitude": 2.282127204749864, 
+        "productType": "chaussures",
+        "hours": "10h00-20h00",
+        "website": "https://www2.hm.com/fr_fr/index.html"
+      },
+      {
+        "name": "SEPHORA PARIS BEAUGRENELLE",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84855225885783,        
+        "longitude": 2.282194214349969, 
+        "productType": "maquillage",
+        "hours": "10h00-20h00",
+        "website": "https://www.sephora.fr/information-magasin/?storeID=S1049002&utm_source=local&utm_support=organic&utm_campaign=uberall"
+      },
+      {
+        "name": "Rituals",
+        "address": "12 Rue Linois",
+        "city": "ParisXVe",
+        "latitude": 48.84761318839755,         
+        "longitude": 2.2835602792692264, 
+        "productType": "maquillage",
+        "hours": "10h00-20h00",
+        "website": "https://www.rituals.com/fr-fr/home"
+      },
+      {
+        "name": "Marionnaud",
+        "address": "57 Rue du Commerce",
+        "city": "ParisXVe",
+        "latitude": 48.84601360349672,         
+        "longitude": 2.2951351918887606, 
+        "productType": "maquillage",
+        "hours": "10h00-19h00",
+        "website": "https://www.marionnaud.fr/"
       }
+
     ]
   }
   

@@ -1,5 +1,3 @@
-// products/[city].js
-
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link"; // Importer Link depuis next/link
@@ -24,7 +22,7 @@ const ProductByCity = () => {
 
   return (
     <div className="h-screen">
-      <div className="bg-gray-100 p-6 m-4 rounded-lg shadow-md">
+      <div className="bg-gray-100 p-6 m-4 rounded-lg shadow-md overflow-auto relative">
         <h1 className="text-2xl font-bold mb-4">
           Magasins à {city} vendant des {productType}s :
         </h1>
@@ -39,6 +37,18 @@ const ProductByCity = () => {
                 Type de produit : {store.productType}
               </p>
               <p className="text-gray-700">Heures : {store.hours}</p>
+              {store.website !== "" && (
+                <p className="text-gray-700">
+                  Site web :{" "}
+                  <a
+                    href={store.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {store.website}
+                  </a>
+                </p>
+              )}
               {/* Add other store information you want to display */}
             </li>
           ))}
@@ -49,7 +59,7 @@ const ProductByCity = () => {
           href={`/GoogleMap?city=${city}&productType=${productType}`}
           passHref
         >
-          <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300">
+          <button className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300 absolute top-4 right-4">
             Afficher sur la carte
           </button>
         </Link>

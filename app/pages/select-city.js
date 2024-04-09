@@ -27,7 +27,7 @@ const SelectCityPage = () => {
     router.push(`/GoogleMap?city=PositionActuelle&productType=${productType}`);
   };
 
-  const cities = ["Chaville", "Marseille", "Lyon", "Toulouse", "Nice", "Paris"];
+  const cities = ["Chaville", "Marseille", "Lyon", "Toulouse", "Nice", "ParisXVe"];
 
   useEffect(() => {
     const { productType: urlProductType } = router.query;

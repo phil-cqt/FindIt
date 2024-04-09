@@ -62,7 +62,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=batterie" passHref>
+          <Link href="/select-city?productType=batterieExterne" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
               <img
                 src="/batterie.jpg"
