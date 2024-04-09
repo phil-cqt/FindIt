@@ -21,8 +21,8 @@ const ProductByCity = () => {
   }, [city, productType]); // Mettre la ville et le type de produit en dépendance
 
   return (
-    <div className="h-screen">
-      <div className="bg-gray-100 p-6 m-4 rounded-lg shadow-md overflow-auto relative">
+    <div className="bg-gray-300 p-4">
+      <div className="bg-gray-100 p-6 rounded-lg shadow-md relative">
         <h1 className="text-2xl font-bold mb-4">
           Magasins à {city} vendant des {productType} :
         </h1>

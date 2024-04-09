@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="p-4 text-center">
+    <div className="p-4 text-center bg-gray-300 h-height">
       <h1 className="text-3xl font-bold mb-8">Bienvenue sur notre page "A Propos"</h1>
       <p className="mb-8">
         Ce site web est le résultat d'un Projet Pluridisciplinaire Encadré (PPE) réalisé par six étudiants de l'ECE en 4ème année.

@@ -12,7 +12,7 @@ export default function Layout({ children, title, description }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow mt-10 mb-10">{children}</main>
       <Footer />
     </div>
   );
