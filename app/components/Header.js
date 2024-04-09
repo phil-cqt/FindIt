@@ -6,7 +6,7 @@ const Header = ({ onClickLogin }) => {
     <div className="flex justify-between items-center p-4 bg-gray-600 text-white">
       {/* Find'It title */}
       <Link href="/" passHref>
-        <h1 className="cursor-pointer text-2xl font-bold">Find'It</h1>
+        <h1 className="cursor-pointer text-2xl font-bold">Find&apos;It</h1>
       </Link>
       
       {/* Help and About buttons */}
