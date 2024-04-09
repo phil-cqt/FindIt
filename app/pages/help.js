@@ -22,6 +22,7 @@ const Aide = () => {
           Nous espérons que Find It vous aidera à trouver rapidement ce que vous recherchez, où que vous soyez !
         </p>
       </div>
+    </div>
   );
 };
 

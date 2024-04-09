@@ -36,8 +36,8 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-center mt-10">Electronique</h1>
+    <div className="bg-gray-300">
+      <h1 className="text-3xl font-bold text-center pt-10">Electronique</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
           <Link href="/select-city?productType=chargeurs" passHref>

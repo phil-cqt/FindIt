@@ -37,10 +37,10 @@ const SelectCityPage = () => {
   }, [router.query.productType]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="p-4 text-center">
-        <h1 className="text-4xl font-bold mb-6">Sélectionnez votre ville</h1>
-        <div className="grid grid-cols-3 gap-4 mb-6">
+    <div class="flex flex-col items-center justify-center h-screen bg-gray-300">
+      <div class="p-4 text-center">
+        <h1 class="text-4xl font-bold mb-6">Sélectionnez votre ville</h1>
+        <div class="grid grid-cols-3 gap-4 mb-6">
           {cities.map((city) => (
             <button
               key={city}
