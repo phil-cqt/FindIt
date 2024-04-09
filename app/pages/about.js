@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div className="p-4 text-center">
-      <h1 className="text-3xl font-bold mb-8">Bienvenue sur notre page "A Propos"</h1>
+      <h1 className="text-3xl font-bold mb-8">Bienvenue sur notre page &quot;A Propos&quot;</h1>
       <p className="mb-8">
-        Ce site web est le résultat d'un Projet Pluridisciplinaire Encadré (PPE) réalisé par six étudiants de l'ECE en 4ème année.
+        Ce site web est le résultat d&apos;un Projet Pluridisciplinaire Encadré (PPE) réalisé par six étudiants de l&apos;ECE en 4ème année.
         Notre objectif principal était de mettre en pratique nos compétences tout en produisant un contenu utile pour les utilisateurs.
       </p>
       <h2 className="text-xl font-bold mb-4">Équipe :</h2>
@@ -43,16 +43,16 @@ const About = () => {
         </div>
       </div>
       <p className="mb-8">
-        Nous sommes fiers d'avoir réussi à concrétiser ce projet qui nous a permis de mettre en valeur nos compétences tout en produisant un contenu utile pour nos utilisateurs.
+        Nous sommes fiers d&apos;avoir réussi à concrétiser ce projet qui nous a permis de mettre en valeur nos compétences tout en produisant un contenu utile pour nos utilisateurs.
       </p>
       <p className="mb-8">
-        Ce projet nous a également permis d'apprendre de nouvelles technologies et de développer nos compétences en matière de développement web.
+        Ce projet nous a également permis d&apos;apprendre de nouvelles technologies et de développer nos compétences en matière de développement web.
       </p>
       <p className="mb-8">
         Nous tenons à remercier tous ceux qui ont contribué de près ou de loin à la réalisation de ce projet, ainsi que nos encadrants pédagogiques pour leur soutien et leurs précieux conseils tout au long de ce parcours.
       </p>
       <p>
-        Nous espérons que notre site répondra à vos attentes et vous sera utile dans votre quotidien. N'hésitez pas à explorer nos fonctionnalités et à nous faire part de vos retours !
+        Nous espérons que notre site répondra à vos attentes et vous sera utile dans votre quotidien. N&apos;hésitez pas à explorer nos fonctionnalités et à nous faire part de vos retours !
       </p>
     </div>
   );

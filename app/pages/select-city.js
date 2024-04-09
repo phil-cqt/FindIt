@@ -37,14 +37,14 @@ const SelectCityPage = () => {
   }, [router.query.productType]);
 
   return (
-    <div class="flex flex-col items-center justify-center h-screen">
-      <div class="p-4 text-center">
-        <h1 class="text-4xl font-bold mb-6">Sélectionnez votre ville</h1>
-        <div class="grid grid-cols-3 gap-4 mb-6">
+    <div className="flex flex-col items-center justify-center h-screen">
+      <div className="p-4 text-center">
+        <h1 className="text-4xl font-bold mb-6">Sélectionnez votre ville</h1>
+        <div className="grid grid-cols-3 gap-4 mb-6">
           {cities.map((city) => (
             <button
               key={city}
-              class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6 rounded text-lg"
+              className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6 rounded text-lg"
               onClick={() => handleCitySelection(city)}
             >
               {city}
@@ -52,7 +52,7 @@ const SelectCityPage = () => {
           ))}
         </div>
         <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded w-full text-lg"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded w-full text-lg"
           onClick={handleLocationButtonClick}
         >
           Autour de moi

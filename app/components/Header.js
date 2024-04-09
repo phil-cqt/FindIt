@@ -18,7 +18,7 @@ const Header = ({ onClickLogin }) => {
         
         {/* About button */}
         <Link href="/about" passHref>
-          <button className="text-sm font-bold hover:text-gray-300 focus:outline-none font-bold">À propos</button>
+          <button className="text-sm font-bold hover:text-gray-300 focus:outline-none font-bold">&Agrave; propos</button>
         </Link>
       </div>
     </div>
