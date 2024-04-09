@@ -16,7 +16,7 @@
         "city": "Chaville",
         "latitude": 48.812832834197586, 
         "longitude": 2.1926726396327783, 
-        "productType": "batterieExterne",
+        "productType": "batterie externes",
         "hours": "9h00-19h00",
         "website": "https://seya.fr/"
       },
@@ -86,7 +86,7 @@
         "city": "Chaville",
         "latitude": 48.809545162603285, 
         "longitude": 2.1899781780068115, 
-        "productType": "tshirt",
+        "productType": "tshirts",
         "hours": "7h30-21h00",
         "website": "https://www.monoprix.fr/"
       },
@@ -96,7 +96,7 @@
         "city": "Chaville",
         "latitude": 48.809545162603285, 
         "longitude": 2.1899781780068115, 
-        "productType": "pantalon",
+        "productType": "pantalonss",
         "hours": "7h30-21h00",
         "website": "https://www.monoprix.fr/"
       },
@@ -116,7 +116,7 @@
         "city": "Chaville",
         "latitude": 48.80869715454481, 
         "longitude": 2.188001048158357, 
-        "productType": "maquillage",
+        "productType": "cosmetiques",
         "hours": "10h00-19h30",
         "website": "https://www.nocibe.fr/"
       },
@@ -126,7 +126,7 @@
         "city": "Chaville",
         "latitude": 48.808374295970154, 
         "longitude": 2.188828005833761,  
-        "productType": "maquillage",
+        "productType": "cosmetiques",
         "hours": "10h00-19h30",
         "website": "https://www.bodyminute.com/instituts/chaville-3542/?utm_source=gmb"
       },
@@ -136,7 +136,7 @@
         "city": "Chaville",
         "latitude": 48.808669816808546,  
         "longitude": 2.1883680972719217, 
-        "productType": "maquillage",
+        "productType": "cosmetiques",
         "hours": "9h30-20h00",
         "website": "https://magasins.lavieclaire.com/lavieclaire/fr/france/ile-de-france/hauts-de-seine/chaville"
       },
@@ -156,7 +156,7 @@
         "city": "ParisXVe",
         "latitude": 48.84827786209352,  
         "longitude": 2.282331214126032, 
-        "productType": "batterieExterne",
+        "productType": "batterie externes",
         "hours": "10h00-20h00",
         "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
       },
@@ -186,7 +186,7 @@
         "city": "ParisXVe",
         "latitude": 48.8463108280123,   
         "longitude": 2.284989735430745, 
-        "productType": "batterieExterne",
+        "productType": "batterie externes",
         "hours": "10h00-20h00",
         "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
       },
@@ -216,7 +216,7 @@
         "city": "ParisXVe",
         "latitude": 48.8480335914215,    
         "longitude": 2.2847541017696447, 
-        "productType": "batterieExterne",
+        "productType": "batterie externes",
         "hours": "10h00-19h00",
         "website": "https://paris15.grosbill.com/"
       },
@@ -270,7 +270,7 @@
         "city": "ParisXVe",
         "latitude": 48.8478374822753,      
         "longitude": 2.283550947742627, 
-        "productType": "tshirt",
+        "productType": "tshirts",
         "hours": "10h00-20h00",
         "website": "https://www.uniqlo.com/fr/fr/home"
       },
@@ -280,7 +280,7 @@
         "city": "ParisXVe",
         "latitude": 48.8478374822753,      
         "longitude": 2.283550947742627, 
-        "productType": "pantalon",
+        "productType": "pantalons",
         "hours": "10h00-20h00",
         "website": "https://www.uniqlo.com/fr/fr/home"
       },
@@ -300,7 +300,7 @@
         "city": "ParisXVe",
         "latitude": 48.848067794365726,      
         "longitude": 2.296909046562805, 
-        "productType": "tshirt",
+        "productType": "tshirts",
         "hours": "10h00-19h30",
         "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
       },
@@ -310,7 +310,7 @@
         "city": "ParisXVe",
         "latitude": 48.848067794365726,      
         "longitude": 2.296909046562805, 
-        "productType": "pantalon",
+        "productType": "pantalons",
         "hours": "10h00-19h30",
         "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
       },
@@ -341,7 +341,7 @@
         "city": "ParisXVe",
         "latitude": 48.84820465587957,       
         "longitude": 2.282127204749864, 
-        "productType": "tshirt",
+        "productType": "tshirts",
         "hours": "10h00-20h00",
         "website": "https://www2.hm.com/fr_fr/index.html"
       },
@@ -351,7 +351,7 @@
         "city": "ParisXVe",
         "latitude": 48.84820465587957,       
         "longitude": 2.282127204749864, 
-        "productType": "pantalon",
+        "productType": "pantalons",
         "hours": "10h00-20h00",
         "website": "https://www2.hm.com/fr_fr/index.html"
       },
@@ -371,7 +371,7 @@
         "city": "ParisXVe",
         "latitude": 48.84855225885783,        
         "longitude": 2.282194214349969, 
-        "productType": "maquillage",
+        "productType": "cosmetiques",
         "hours": "10h00-20h00",
         "website": "https://www.sephora.fr/information-magasin/?storeID=S1049002&utm_source=local&utm_support=organic&utm_campaign=uberall"
       },
@@ -381,7 +381,7 @@
         "city": "ParisXVe",
         "latitude": 48.84761318839755,         
         "longitude": 2.2835602792692264, 
-        "productType": "maquillage",
+        "productType": "cosmetiques",
         "hours": "10h00-20h00",
         "website": "https://www.rituals.com/fr-fr/home"
       },
@@ -391,7 +391,7 @@
         "city": "ParisXVe",
         "latitude": 48.84601360349672,         
         "longitude": 2.2951351918887606, 
-        "productType": "maquillage",
+        "productType": "cosmetiques",
         "hours": "10h00-19h00",
         "website": "https://www.marionnaud.fr/"
       }

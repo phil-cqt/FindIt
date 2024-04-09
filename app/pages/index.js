@@ -40,7 +40,7 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mt-10">Electronique</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
-          <Link href="/select-city?productType=chargeur" passHref>
+          <Link href="/select-city?productType=chargeurs" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/chargeur.jpg"
@@ -62,7 +62,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link href="/select-city?productType=batterieExterne" passHref>
+          <Link href="/select-city?productType=batterie externes" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
               <img
                 src="/batterie.jpg"
@@ -77,18 +77,18 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mt-10">Mode</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
-          <Link href="/select-city?productType=tshirt" passHref>
+          <Link href="/select-city?productType=tshirts" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/t-shirt.jpg"
-                alt="T-shirt"
+                alt="T-shirts"
                 className="object-cover rounded-lg h-48 w-full mb-4"
               />
               <p className="text-lg font-semibold">T-shirt</p>
             </div>
           </Link>
 
-          <Link href="/select-city?productType=pantalon" passHref>
+          <Link href="/select-city?productType=pantalons" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/pantalon.jpg"
@@ -114,11 +114,11 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mt-10">Cosmétique</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
-          <Link href="/select-city?productType=cosmetique" passHref>
+          <Link href="/select-city?productType=cosmetiques" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
                 src="/cosmetique.jpg"
-                alt="Crème"
+                alt="cosmetique"
                 className="object-cover rounded-lg h-48 w-full mb-4"
               />
               <p className="text-lg font-semibold">Cosmetique</p>
