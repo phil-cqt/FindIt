@@ -22,7 +22,7 @@ const About = () => {
           <p className="text-sm">Majeure Finance</p>
         </div>
         <div className="flex flex-col items-center mr-4">
-          <img src="/robin.png" alt="Membre 2" className="w-40 h-40 mb-2 rounded-full" />
+          <img src="/paul.png" alt="Membre 2" className="w-40 h-40 mb-2 rounded-full" />
           <p className="font-semibold mb-1">Paul Morgant</p>
           <p className="text-sm">Majeure Finance</p>
         </div>
@@ -32,7 +32,7 @@ const About = () => {
           <p className="text-sm">Majeure SI</p>
         </div>
         <div className="flex flex-col items-center mr-4">
-          <img src="/robin.png" alt="Membre 2" className="w-40 h-40 mb-2 rounded-full" />
+          <img src="/raph.png" alt="Membre 2" className="w-40 h-40 mb-2 rounded-full" />
           <p className="font-semibold mb-1">Raphaël Pauly</p>
           <p className="text-sm">Majeure SI</p>
         </div>
