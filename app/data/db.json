@@ -200,7 +200,6 @@
         "hours": "10h00-20h00",
         "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
       },
-
       {
         "name": "Grosbill Paris 15",
         "address": "1 Rue Beaugrenelle",
@@ -224,10 +223,10 @@
 
       {
         "name": "INFOMAC",
-        "address": "1 Rue Beaugrenelle",
+        "address": "82 Rue des Entrepreneurs",
         "city": "ParisXVe",
         "latitude": 48.844168201896935,     
-        "longitude": 2.291142717965927, 
+        "longitude": 2.291142717965927,   
         "productType": "chargeur",
         "hours": "10h00-13h00 et 14h00-18h30",
         "website": "https://www.infomacparis.fr/"
@@ -328,7 +327,7 @@
 
       {
         "name": "MONAN CHAUSSURES",
-        "address": "102 Rue St Charles",
+        "address": "82 Bd de Grenelle",
         "city": "ParisXVe",
         "latitude": 48.849976685917575,        
         "longitude": 2.2939431663487637, 
