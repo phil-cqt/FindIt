@@ -24,7 +24,7 @@ const ProductByCity = () => {
     <div className="h-screen">
       <div className="bg-gray-100 p-6 m-4 rounded-lg shadow-md overflow-auto relative">
         <h1 className="text-2xl font-bold mb-4">
-          Magasins à {city} vendant des {productType}s :
+          Magasins à {city} vendant des {productType} :
         </h1>
         <ul>
           {stores.map((store) => (

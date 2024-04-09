@@ -114,36 +114,14 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mt-10">Cosmétique</h1>
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
-          <Link href="/select-city?productType=creme" passHref>
+          <Link href="/select-city?productType=cosmetique" passHref>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
               <img
-                src="/crème.jpg"
+                src="/cosmetique.jpg"
                 alt="Crème"
                 className="object-cover rounded-lg h-48 w-full mb-4"
               />
-              <p className="text-lg font-semibold">Crème</p>
-            </div>
-          </Link>
-
-          <Link href="/select-city?productType=levre" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
-              <img
-                src="/rouge.jpg"
-                alt="Rouge à lèvres"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Rouge à lèvres</p>
-            </div>
-          </Link>
-
-          <Link href="/select-city?productType=palette" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
-              <img
-                src="/palette.jpg"
-                alt="Palette de maquillage"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Palette</p>
+              <p className="text-lg font-semibold">Cosmetique</p>
             </div>
           </Link>
         </div>
