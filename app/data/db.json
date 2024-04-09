@@ -1,401 +1,590 @@
 {
-    "stores": [
-      {
-        "name": "Diimsphone",
-        "address": "1 Rue du Gros Chêne",
-        "city": "Chaville",
-        "latitude": 48.8103854058223, 
-        "longitude": 2.1933650818248442, 
-        "productType": "chargeur",
-        "hours": "24h/24h",
-        "website": ""
-      },
-      {
-        "name": "Seya Informatique",
-        "address": "5 Parv. Robert Schuman",
-        "city": "Chaville",
-        "latitude": 48.812832834197586, 
-        "longitude": 2.1926726396327783, 
-        "productType": "batterie externes",
-        "hours": "9h00-19h00",
-        "website": "https://seya.fr/"
-      },
-      {
-        "name": "Seya Informatique",
-        "address": "5 Parv. Robert Schuman",
-        "city": "Chaville",
-        "latitude": 48.812832834197586, 
-        "longitude": 2.1926726396327783, 
-        "productType": "chargeur",
-        "hours": "9h00-19h00",
-        "website": "https://seya.fr/"
-      },
-      {
-        "name": "Seya Informatique",
-        "address": "5 Parv. Robert Schuman",
-        "city": "Chaville",
-        "latitude": 48.812832834197586, 
-        "longitude": 2.1926726396327783, 
-        "productType": "ecouteurs",
-        "hours": "9h00-19h00",
-        "website": "https://seya.fr/"
-      },
-      {
-        "name": "Monoprix",
-        "address": "1383 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.809545162603285, 
-        "longitude": 2.1899781780068115, 
-        "productType": "chargeur",
-        "hours": "7h30-21h00",
-        "website": "https://www.monoprix.fr/"
-      },
-      {
-        "name": "Monoprix",
-        "address": "1383 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.809545162603285, 
-        "longitude": 2.1899781780068115, 
-        "productType": "ecouteurs",
-        "hours": "7h30-21h00",
-        "website": "https://www.monoprix.fr/"
-      },
-      {
-        "name": "Casino Supermarché",
-        "address": "1811 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.80676686493281, 
-        "longitude": 2.185845421459357, 
-        "productType": "chargeur",
-        "hours": "7h00-23h00",
-        "website": "https://magasins.supercasino.fr/supermarche/chaville/CS528"
-      },
-      {
-        "name": "Aux mille services",
-        "address": "2237 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.8048241330604, 
-        "longitude": 2.18152277154296, 
-        "productType": "chargeur",
-        "hours": "9h30-13h00 et 15h00-21h00",
-        "website": "https://aux-mille-services.edan.io/"
-      },
-      {
-        "name": "Monoprix",
-        "address": "1383 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.809545162603285, 
-        "longitude": 2.1899781780068115, 
-        "productType": "tshirts",
-        "hours": "7h30-21h00",
-        "website": "https://www.monoprix.fr/"
-      },
-      {
-        "name": "Monoprix",
-        "address": "1383 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.809545162603285, 
-        "longitude": 2.1899781780068115, 
-        "productType": "pantalonss",
-        "hours": "7h30-21h00",
-        "website": "https://www.monoprix.fr/"
-      },
-      {
-        "name": "Monoprix",
-        "address": "1383 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.809545162603285, 
-        "longitude": 2.1899781780068115, 
-        "productType": "chaussures",
-        "hours": "7h30-21h00",
-        "website": "https://www.monoprix.fr/"
-      },
-      {
-        "name": "Nocibé",
-        "address": "1545 Av. Roger Salengro",
-        "city": "Chaville",
-        "latitude": 48.80869715454481, 
-        "longitude": 2.188001048158357, 
-        "productType": "cosmetiques",
-        "hours": "10h00-19h30",
-        "website": "https://www.nocibe.fr/"
-      },
-      {
-        "name": "Institut de beauté Bodyminute",
-        "address": "23 Rue des Fontaines Marivel",
-        "city": "Chaville",
-        "latitude": 48.808374295970154, 
-        "longitude": 2.188828005833761,  
-        "productType": "cosmetiques",
-        "hours": "10h00-19h30",
-        "website": "https://www.bodyminute.com/instituts/chaville-3542/?utm_source=gmb"
-      },
-      {
-        "name": "La Vie Claire",
-        "address": "23 Rue des Fontaines Marivel",
-        "city": "Chaville",
-        "latitude": 48.808669816808546,  
-        "longitude": 2.1883680972719217, 
-        "productType": "cosmetiques",
-        "hours": "9h30-20h00",
-        "website": "https://magasins.lavieclaire.com/lavieclaire/fr/france/ile-de-france/hauts-de-seine/chaville"
-      },
-      {
-        "name": "Fnac Paris-Beaugrenelle",
-        "address": "5 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84827786209352,  
-        "longitude": 2.282331214126032, 
-        "productType": "chargeur",
-        "hours": "10h00-20h00",
-        "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
-      },
-      {
-        "name": "Fnac Paris-Beaugrenelle",
-        "address": "5 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84827786209352,  
-        "longitude": 2.282331214126032, 
-        "productType": "batterie externes",
-        "hours": "10h00-20h00",
-        "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
-      },
-      {
-        "name": "Fnac Paris-Beaugrenelle",
-        "address": "5 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84827786209352,  
-        "longitude": 2.282331214126032, 
-        "productType": "ecouteurs",
-        "hours": "10h00-20h00",
-        "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
-      },
-      {
-        "name": "Boulanger Paris Beaugrenelle",
-        "address": "70 Av. Emile Zola",
-        "city": "ParisXVe",
-        "latitude": 48.8463108280123,   
-        "longitude": 2.284989735430745, 
-        "productType": "chargeur",
-        "hours": "10h00-20h00",
-        "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
-      },
-      {
-        "name": "Boulanger Paris Beaugrenelle",
-        "address": "70 Av. Emile Zola",
-        "city": "ParisXVe",
-        "latitude": 48.8463108280123,   
-        "longitude": 2.284989735430745, 
-        "productType": "batterie externes",
-        "hours": "10h00-20h00",
-        "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
-      },
-      {
-        "name": "Boulanger Paris Beaugrenelle",
-        "address": "70 Av. Emile Zola",
-        "city": "ParisXVe",
-        "latitude": 48.8463108280123,   
-        "longitude": 2.284989735430745, 
-        "productType": "ecouteurs",
-        "hours": "10h00-20h00",
-        "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
-      },
-      {
-        "name": "Grosbill Paris 15",
-        "address": "1 Rue Beaugrenelle",
-        "city": "ParisXVe",
-        "latitude": 48.8480335914215,    
-        "longitude": 2.2847541017696447, 
-        "productType": "chargeur",
-        "hours": "10h00-20h00",
-        "website": "https://paris15.grosbill.com/"
-      },
-      {
-        "name": "Grosbill Paris 15",
-        "address": "1 Rue Beaugrenelle",
-        "city": "ParisXVe",
-        "latitude": 48.8480335914215,    
-        "longitude": 2.2847541017696447, 
-        "productType": "batterie externes",
-        "hours": "10h00-19h00",
-        "website": "https://paris15.grosbill.com/"
-      },
+  "stores": [
+    {
+      "name": "Diimsphone",
+      "address": "1 Rue du Gros Chêne",
+      "city": "Chaville",
+      "latitude": 48.8103854058223, 
+      "longitude": 2.1933650818248442, 
+      "productType": "chargeurs",
+      "hours": "24h/24h",
+      "website": ""
+    },
+    {
+      "name": "Seya Informatique",
+      "address": "5 Parv. Robert Schuman",
+      "city": "Chaville",
+      "latitude": 48.812832834197586, 
+      "longitude": 2.1926726396327783, 
+      "productType": "batterie externes",
+      "hours": "9h00-19h00",
+      "website": "https://seya.fr/"
+    },
+    {
+      "name": "Seya Informatique",
+      "address": "5 Parv. Robert Schuman",
+      "city": "Chaville",
+      "latitude": 48.812832834197586, 
+      "longitude": 2.1926726396327783, 
+      "productType": "chargeurs",
+      "hours": "9h00-19h00",
+      "website": "https://seya.fr/"
+    },
+    {
+      "name": "Seya Informatique",
+      "address": "5 Parv. Robert Schuman",
+      "city": "Chaville",
+      "latitude": 48.812832834197586, 
+      "longitude": 2.1926726396327783, 
+      "productType": "ecouteurs",
+      "hours": "9h00-19h00",
+      "website": "https://seya.fr/"
+    },
+    {
+      "name": "Monoprix",
+      "address": "1383 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.809545162603285, 
+      "longitude": 2.1899781780068115, 
+      "productType": "chargeurs",
+      "hours": "7h30-21h00",
+      "website": "https://www.monoprix.fr/"
+    },
+    {
+      "name": "Monoprix",
+      "address": "1383 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.809545162603285, 
+      "longitude": 2.1899781780068115, 
+      "productType": "ecouteurs",
+      "hours": "7h30-21h00",
+      "website": "https://www.monoprix.fr/"
+    },
+    {
+      "name": "Casino Supermarché",
+      "address": "1811 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.80676686493281, 
+      "longitude": 2.185845421459357, 
+      "productType": "chargeurs",
+      "hours": "7h00-23h00",
+      "website": "https://magasins.supercasino.fr/supermarche/chaville/CS528"
+    },
+    {
+      "name": "Aux mille services",
+      "address": "2237 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.8048241330604, 
+      "longitude": 2.18152277154296, 
+      "productType": "chargeurs",
+      "hours": "9h30-13h00 et 15h00-21h00",
+      "website": "https://aux-mille-services.edan.io/"
+    },
+    {
+      "name": "Monoprix",
+      "address": "1383 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.809545162603285, 
+      "longitude": 2.1899781780068115, 
+      "productType": "tshirts",
+      "hours": "7h30-21h00",
+      "website": "https://www.monoprix.fr/"
+    },
+    {
+      "name": "Monoprix",
+      "address": "1383 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.809545162603285, 
+      "longitude": 2.1899781780068115, 
+      "productType": "pantalonss",
+      "hours": "7h30-21h00",
+      "website": "https://www.monoprix.fr/"
+    },
+    {
+      "name": "Monoprix",
+      "address": "1383 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.809545162603285, 
+      "longitude": 2.1899781780068115, 
+      "productType": "chaussures",
+      "hours": "7h30-21h00",
+      "website": "https://www.monoprix.fr/"
+    },
+    {
+      "name": "Nocibé",
+      "address": "1545 Av. Roger Salengro",
+      "city": "Chaville",
+      "latitude": 48.80869715454481, 
+      "longitude": 2.188001048158357, 
+      "productType": "cosmetiques",
+      "hours": "10h00-19h30",
+      "website": "https://www.nocibe.fr/"
+    },
+    {
+      "name": "Institut de beauté Bodyminute",
+      "address": "23 Rue des Fontaines Marivel",
+      "city": "Chaville",
+      "latitude": 48.808374295970154, 
+      "longitude": 2.188828005833761,  
+      "productType": "cosmetiques",
+      "hours": "10h00-19h30",
+      "website": "https://www.bodyminute.com/instituts/chaville-3542/?utm_source=gmb"
+    },
+    {
+      "name": "La Vie Claire",
+      "address": "23 Rue des Fontaines Marivel",
+      "city": "Chaville",
+      "latitude": 48.808669816808546,  
+      "longitude": 2.1883680972719217, 
+      "productType": "cosmetiques",
+      "hours": "9h30-20h00",
+      "website": "https://magasins.lavieclaire.com/lavieclaire/fr/france/ile-de-france/hauts-de-seine/chaville"
+    },
+    {
+      "name": "Fnac Paris-Beaugrenelle",
+      "address": "5 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84827786209352,  
+      "longitude": 2.282331214126032, 
+      "productType": "chargeurs",
+      "hours": "10h00-20h00",
+      "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
+    },
+    {
+      "name": "Fnac Paris-Beaugrenelle",
+      "address": "5 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84827786209352,  
+      "longitude": 2.282331214126032, 
+      "productType": "batterie externes",
+      "hours": "10h00-20h00",
+      "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
+    },
+    {
+      "name": "Fnac Paris-Beaugrenelle",
+      "address": "5 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84827786209352,  
+      "longitude": 2.282331214126032, 
+      "productType": "ecouteurs",
+      "hours": "10h00-20h00",
+      "website": "https://www.fnac.com/Paris-Beaugrenelle/Fnac-Beaugrenelle/cl321/w-4"
+    },
+    {
+      "name": "Boulanger Paris Beaugrenelle",
+      "address": "70 Av. Emile Zola",
+      "city": "ParisXVe",
+      "latitude": 48.8463108280123,   
+      "longitude": 2.284989735430745, 
+      "productType": "chargeurs",
+      "hours": "10h00-20h00",
+      "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
+    },
+    {
+      "name": "Boulanger Paris Beaugrenelle",
+      "address": "70 Av. Emile Zola",
+      "city": "ParisXVe",
+      "latitude": 48.8463108280123,   
+      "longitude": 2.284989735430745, 
+      "productType": "batterie externes",
+      "hours": "10h00-20h00",
+      "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
+    },
+    {
+      "name": "Boulanger Paris Beaugrenelle",
+      "address": "70 Av. Emile Zola",
+      "city": "ParisXVe",
+      "latitude": 48.8463108280123,   
+      "longitude": 2.284989735430745, 
+      "productType": "ecouteurs",
+      "hours": "10h00-20h00",
+      "website": "https://www.boulanger.com/magasins/ile-de-france/paris/paris/70-avenue-emile-zola"
+    },
+    {
+      "name": "Grosbill Paris 15",
+      "address": "1 Rue Beaugrenelle",
+      "city": "ParisXVe",
+      "latitude": 48.8480335914215,    
+      "longitude": 2.2847541017696447, 
+      "productType": "chargeurs",
+      "hours": "10h00-20h00",
+      "website": "https://paris15.grosbill.com/"
+    },
+    {
+      "name": "Grosbill Paris 15",
+      "address": "1 Rue Beaugrenelle",
+      "city": "ParisXVe",
+      "latitude": 48.8480335914215,    
+      "longitude": 2.2847541017696447, 
+      "productType": "batterie externes",
+      "hours": "10h00-19h00",
+      "website": "https://paris15.grosbill.com/"
+    },
 
-      {
-        "name": "INFOMAC",
-        "address": "82 Rue des Entrepreneurs",
-        "city": "ParisXVe",
-        "latitude": 48.844168201896935,     
-        "longitude": 2.291142717965927,   
-        "productType": "chargeur",
-        "hours": "10h00-13h00 et 14h00-18h30",
-        "website": "https://www.infomacparis.fr/"
-      },
+    {
+      "name": "INFOMAC",
+      "address": "82 Rue des Entrepreneurs",
+      "city": "ParisXVe",
+      "latitude": 48.844168201896935,     
+      "longitude": 2.291142717965927,   
+      "productType": "chargeurs",
+      "hours": "10h00-13h00 et 14h00-18h30",
+      "website": "https://www.infomacparis.fr/"
+    },
 
-      {
-        "name": "INFOMAC",
-        "address": "1 Rue Beaugrenelle",
-        "city": "ParisXVe",
-        "latitude": 48.844168201896935,     
-        "longitude": 2.291142717965927, 
-        "productType": "ecouteurs",
-        "hours": "10h00-13h00 et 14h00-18h30",
-        "website": "https://www.infomacparis.fr/"
-      },
+    {
+      "name": "INFOMAC",
+      "address": "1 Rue Beaugrenelle",
+      "city": "ParisXVe",
+      "latitude": 48.844168201896935,     
+      "longitude": 2.291142717965927, 
+      "productType": "ecouteurs",
+      "hours": "10h00-13h00 et 14h00-18h30",
+      "website": "https://www.infomacparis.fr/"
+    },
 
-      {
-        "name": "LDLC Paris Beaugrenelle",
-        "address": "12-14 Rue de l'Eglise",
-        "city": "ParisXVe",
-        "latitude": 48.845075681464934,    
-        "longitude": 2.285490394217903, 
-        "productType": "chargeur",
-        "hours": "10h00-19h00",
-        "website": "https://www.ldlc.com/magasins-ldlc/magasin-470021/75-ldlc-paris-beaugrenelle/"
-      },
+    {
+      "name": "LDLC Paris Beaugrenelle",
+      "address": "12-14 Rue de l'Eglise",
+      "city": "ParisXVe",
+      "latitude": 48.845075681464934,    
+      "longitude": 2.285490394217903, 
+      "productType": "chargeurs",
+      "hours": "10h00-19h00",
+      "website": "https://www.ldlc.com/magasins-ldlc/magasin-470021/75-ldlc-paris-beaugrenelle/"
+    },
 
-      {
-        "name": "Centre de Réparation Téléphone et Ordinateur",
-        "address": "49 Rue des Entrepreneurs",
-        "city": "ParisXVe",
-        "latitude": 48.84581899099216,     
-        "longitude": 2.287747527618661, 
-        "productType": "chargeur",
-        "hours": "10h30-19h30",
-        "website": ""
-      },
-      {
-        "name": "UNIQLO BEAUGRENELLE",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.8478374822753,      
-        "longitude": 2.283550947742627, 
-        "productType": "tshirts",
-        "hours": "10h00-20h00",
-        "website": "https://www.uniqlo.com/fr/fr/home"
-      },
-      {
-        "name": "UNIQLO BEAUGRENELLE",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.8478374822753,      
-        "longitude": 2.283550947742627, 
-        "productType": "pantalons",
-        "hours": "10h00-20h00",
-        "website": "https://www.uniqlo.com/fr/fr/home"
-      },
-      {
-        "name": "Promod",
-        "address": "21 Rue du Commerce",
-        "city": "ParisXVe",
-        "latitude": 48.848067794365726,      
-        "longitude": 2.296909046562805, 
-        "productType": "chaussures",
-        "hours": "10h00-19h30",
-        "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
-      },
-      {
-        "name": "Promod",
-        "address": "21 Rue du Commerce",
-        "city": "ParisXVe",
-        "latitude": 48.848067794365726,      
-        "longitude": 2.296909046562805, 
-        "productType": "tshirts",
-        "hours": "10h00-19h30",
-        "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
-      },
-      {
-        "name": "Promod",
-        "address": "21 Rue du Commerce",
-        "city": "ParisXVe",
-        "latitude": 48.848067794365726,      
-        "longitude": 2.296909046562805, 
-        "productType": "pantalons",
-        "hours": "10h00-19h30",
-        "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
-      },
-      {
-        "name": "Eram Paris St Charles",
-        "address": "102 Rue St Charles",
-        "city": "ParisXVe",
-        "latitude": 48.845526969082755,       
-        "longitude": 2.2843408580068347, 
-        "productType": "chaussures",
-        "hours": "10h00-19h00",
-        "website": "https://www.eram.fr/"
-      },
+    {
+      "name": "Centre de Réparation Téléphone et Ordinateur",
+      "address": "49 Rue des Entrepreneurs",
+      "city": "ParisXVe",
+      "latitude": 48.84581899099216,     
+      "longitude": 2.287747527618661, 
+      "productType": "chargeurs",
+      "hours": "10h30-19h30",
+      "website": ""
+    },
+    {
+      "name": "UNIQLO BEAUGRENELLE",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.8478374822753,      
+      "longitude": 2.283550947742627, 
+      "productType": "tshirts",
+      "hours": "10h00-20h00",
+      "website": "https://www.uniqlo.com/fr/fr/home"
+    },
+    {
+      "name": "UNIQLO BEAUGRENELLE",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.8478374822753,      
+      "longitude": 2.283550947742627, 
+      "productType": "pantalons",
+      "hours": "10h00-20h00",
+      "website": "https://www.uniqlo.com/fr/fr/home"
+    },
+    {
+      "name": "Promod",
+      "address": "21 Rue du Commerce",
+      "city": "ParisXVe",
+      "latitude": 48.848067794365726,      
+      "longitude": 2.296909046562805, 
+      "productType": "chaussures",
+      "hours": "10h00-19h30",
+      "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
+    },
+    {
+      "name": "Promod",
+      "address": "21 Rue du Commerce",
+      "city": "ParisXVe",
+      "latitude": 48.848067794365726,      
+      "longitude": 2.296909046562805, 
+      "productType": "tshirts",
+      "hours": "10h00-19h30",
+      "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
+    },
+    {
+      "name": "Promod",
+      "address": "21 Rue du Commerce",
+      "city": "ParisXVe",
+      "latitude": 48.848067794365726,      
+      "longitude": 2.296909046562805, 
+      "productType": "pantalons",
+      "hours": "10h00-19h30",
+      "website": "https://magasins.promod.fr/fr/magasins/france-fra/paris/promod-paris-rue-du-commerce-427"
+    },
+    {
+      "name": "Eram Paris St Charles",
+      "address": "102 Rue St Charles",
+      "city": "ParisXVe",
+      "latitude": 48.845526969082755,       
+      "longitude": 2.2843408580068347, 
+      "productType": "chaussures",
+      "hours": "10h00-19h00",
+      "website": "https://www.eram.fr/"
+    },
 
-      {
-        "name": "MONAN CHAUSSURES",
-        "address": "82 Bd de Grenelle",
-        "city": "ParisXVe",
-        "latitude": 48.849976685917575,        
-        "longitude": 2.2939431663487637, 
-        "productType": "chaussures",
-        "hours": "10h30-19h00",
-        "website": "http://www.monanchaussures.com/monanchaussures/monan.html"
-      },
-      {
-        "name": "H&M",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84820465587957,       
-        "longitude": 2.282127204749864, 
-        "productType": "tshirts",
-        "hours": "10h00-20h00",
-        "website": "https://www2.hm.com/fr_fr/index.html"
-      },
-      {
-        "name": "H&M",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84820465587957,       
-        "longitude": 2.282127204749864, 
-        "productType": "pantalons",
-        "hours": "10h00-20h00",
-        "website": "https://www2.hm.com/fr_fr/index.html"
-      },
-      {
-        "name": "H&M",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84820465587957,       
-        "longitude": 2.282127204749864, 
-        "productType": "chaussures",
-        "hours": "10h00-20h00",
-        "website": "https://www2.hm.com/fr_fr/index.html"
-      },
-      {
-        "name": "SEPHORA PARIS BEAUGRENELLE",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84855225885783,        
-        "longitude": 2.282194214349969, 
-        "productType": "cosmetiques",
-        "hours": "10h00-20h00",
-        "website": "https://www.sephora.fr/information-magasin/?storeID=S1049002&utm_source=local&utm_support=organic&utm_campaign=uberall"
-      },
-      {
-        "name": "Rituals",
-        "address": "12 Rue Linois",
-        "city": "ParisXVe",
-        "latitude": 48.84761318839755,         
-        "longitude": 2.2835602792692264, 
-        "productType": "cosmetiques",
-        "hours": "10h00-20h00",
-        "website": "https://www.rituals.com/fr-fr/home"
-      },
-      {
-        "name": "Marionnaud",
-        "address": "57 Rue du Commerce",
-        "city": "ParisXVe",
-        "latitude": 48.84601360349672,         
-        "longitude": 2.2951351918887606, 
-        "productType": "cosmetiques",
-        "hours": "10h00-19h00",
-        "website": "https://www.marionnaud.fr/"
-      }
-
-    ]
-  }
+    {
+      "name": "MONAN CHAUSSURES",
+      "address": "82 Bd de Grenelle",
+      "city": "ParisXVe",
+      "latitude": 48.849976685917575,        
+      "longitude": 2.2939431663487637, 
+      "productType": "chaussures",
+      "hours": "10h30-19h00",
+      "website": "http://www.monanchaussures.com/monanchaussures/monan.html"
+    },
+    {
+      "name": "H&M",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84820465587957,       
+      "longitude": 2.282127204749864, 
+      "productType": "tshirts",
+      "hours": "10h00-20h00",
+      "website": "https://www2.hm.com/fr_fr/index.html"
+    },
+    {
+      "name": "H&M",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84820465587957,       
+      "longitude": 2.282127204749864, 
+      "productType": "pantalons",
+      "hours": "10h00-20h00",
+      "website": "https://www2.hm.com/fr_fr/index.html"
+    },
+    {
+      "name": "H&M",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84820465587957,       
+      "longitude": 2.282127204749864, 
+      "productType": "chaussures",
+      "hours": "10h00-20h00",
+      "website": "https://www2.hm.com/fr_fr/index.html"
+    },
+    {
+      "name": "SEPHORA PARIS BEAUGRENELLE",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84855225885783,        
+      "longitude": 2.282194214349969, 
+      "productType": "cosmetiques",
+      "hours": "10h00-20h00",
+      "website": "https://www.sephora.fr/information-magasin/?storeID=S1049002&utm_source=local&utm_support=organic&utm_campaign=uberall"
+    },
+    {
+      "name": "Rituals",
+      "address": "12 Rue Linois",
+      "city": "ParisXVe",
+      "latitude": 48.84761318839755,         
+      "longitude": 2.2835602792692264, 
+      "productType": "cosmetiques",
+      "hours": "10h00-20h00",
+      "website": "https://www.rituals.com/fr-fr/home"
+    },
+    {
+      "name": "Marionnaud",
+      "address": "57 Rue du Commerce",
+      "city": "ParisXVe",
+      "latitude": 48.84601360349672,         
+      "longitude": 2.2951351918887606, 
+      "productType": "cosmetiques",
+      "hours": "10h00-19h00",
+      "website": "https://www.marionnaud.fr/"
+    },
+    {
+      "name": "Inter-Actif",
+      "address": "26 Rue du Maréchal Foch",
+      "city": "Versailles",
+      "latitude": 48.80792812868953,          
+      "longitude": 2.133044168770108,
+      "productType": "chargeurs",
+      "hours": "10h00-13h00 et 14h00-19h00",
+      "website": "https://inter-actif.com/"
+    },
+    {
+      "name": "Inter-Actif",
+      "address": "26 Rue du Maréchal Foch",
+      "city": "Versailles",
+      "latitude": 48.80792812868953,          
+      "longitude": 2.133044168770108,
+      "productType": "ecouteurs",
+      "hours": "10h00-13h00 et 14h00-19h00",
+      "website": "https://inter-actif.com/"
+    },
+    {
+      "name": "Inter-Actif",
+      "address": "26 Rue du Maréchal Foch",
+      "city": "Versailles",
+      "latitude": 48.80792812868953,          
+      "longitude": 2.133044168770108,
+      "productType": "batterie externes",
+      "hours": "10h00-13h00 et 14h00-19h00",
+      "website": "https://inter-actif.com/"
+    },
+    {
+      "name": "XEFI Versailles",
+      "address": "15 Bd Saint-Antoine",
+      "city": "Versailles",
+      "latitude": 48.815863675362074,         
+      "longitude": 2.126826658896362,  
+      "productType": "batterie externes",
+      "hours": "10h00-19h00",
+      "website": "https://www.rcb-informatique.fr/versailles/"
+    },
+    {
+      "name": "XEFI Versailles",
+      "address": "15 Bd Saint-Antoine",
+      "city": "Versailles",
+      "latitude": 48.815863675362074,         
+      "longitude": 2.126826658896362,  
+      "productType": "chargeurs",
+      "hours": "10h00-19h00",
+      "website": "https://www.rcb-informatique.fr/versailles/"
+    },
+    {
+      "name": "XEFI Versailles",
+      "address": "15 Bd Saint-Antoine",
+      "city": "Versailles",
+      "latitude": 48.815863675362074,         
+      "longitude": 2.126826658896362,  
+      "productType": "ecouteurs",
+      "hours": "10h00-19h00",
+      "website": "https://www.rcb-informatique.fr/versailles/"
+    },
+    {
+      "name": "U Express",
+      "address": "45 Rue du Maréchal Foch",
+      "city": "Versailles",
+      "latitude": 48.80925842656914,         
+      "longitude": 2.133397861689903,  
+      "productType": "chargeurs",
+      "hours": "8h00-20h30",
+      "website": ""
+    },
+    {
+      "name": "Net's Go Informatique",
+      "address": "21 Rue Royale",
+      "city": "Versailles",
+      "latitude": 48.79820764428723,          
+      "longitude": 2.1273590390044825,  
+      "productType": "chargeurs",
+      "hours": "10h30-19h00",
+      "website": "https://netsgo.fr/"
+    },
+    {
+      "name": "sud express",
+      "address": "21 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.80791936699464,           
+      "longitude": 2.127535353133269,  
+      "productType": "tshirts",
+      "hours": "10h00-19h00",
+      "website": "https://www.sudexpress.com/"
+    },
+    {
+      "name": "sud express",
+      "address": "21 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.80791936699464,           
+      "longitude": 2.127535353133269,  
+      "productType": "chaussures",
+      "hours": "10h00-19h00",
+      "website": "https://www.sudexpress.com/"
+    },
+    {
+      "name": "sud express",
+      "address": "21 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.80791936699464,           
+      "longitude": 2.127535353133269,  
+      "productType": "pantalons",
+      "hours": "10h00-19h00",
+      "website": "https://www.sudexpress.com/"
+    },
+    {
+      "name": "Cyrillus",
+      "address": "25 Rue Hoche",
+      "city": "Versailles",
+      "latitude": 48.80737751620746,           
+      "longitude": 2.1285149588959262,
+      "productType": "tshirts",
+      "hours": "10h00-13h30 et 14h30-19h00",
+      "website": "https://magasin.cyrillus.fr/37-cyrillus-versailles"
+    },
+    {
+      "name": "Cyrillus",
+      "address": "25 Rue Hoche",
+      "city": "Versailles",
+      "latitude": 48.80737751620746,           
+      "longitude": 2.1285149588959262,
+      "productType": "pantalons",
+      "hours": "10h00-13h30 et 14h30-19h00",
+      "website": "https://magasin.cyrillus.fr/37-cyrillus-versailles"
+    },
   
+    {
+      "name": "Cyrillus",
+      "address": "25 Rue Hoche",
+      "city": "Versailles",
+      "latitude": 48.80737751620746,           
+      "longitude": 2.1285149588959262,
+      "productType": "chaussures",
+      "hours": "10h00-13h30 et 14h30-19h00",
+      "website": "https://magasin.cyrillus.fr/37-cyrillus-versailles"
+    },
+    {
+      "name": "Manfield",
+      "address": "46 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.807200704184034,            
+      "longitude": 2.129438200687061,
+      "productType": "chaussures",
+      "hours": "10h00-19h00",
+      "website": "https://www.manfield.fr/"
+    },
+    {
+      "name": "Chauss' Mil",
+      "address": "75 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.805968299999996,          
+      "longitude": 2.134826200000436,
+      "productType": "chaussures",
+      "hours": "10h30-13h30 et 14h30-19h00",
+      "website": ""
+    },
+    {
+      "name": "Durance",
+      "address": "26 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.80773394345912,          
+      "longitude": 2.127434673934513,
+      "productType": "cosmetiques",
+      "hours": "10h30-19h00",
+      "website": "https://www.durance.fr/"
+    },
+    {
+      "name": "Nutrimetics",
+      "address": "2-12 Parv. Colonel Beltrame",
+      "city": "Versailles",
+      "latitude": 48.79609439999998,          
+      "longitude": 2.135311540597611,
+      "productType": "cosmetiques",
+      "hours": "8h30-17h00",
+      "website": "https://www.nutrimetics.fr/"
+    },
+    {
+      "name": "L'OCCITANE EN PROVENCE",
+      "address": "39 Rue de la Paroisse",
+      "city": "Versailles",
+      "latitude": 48.807492558380346,           
+      "longitude": 2.1293649458614987,
+      "productType": "cosmetiques",
+      "hours": "11h00-13h30 et 14h30-19h00",
+      "website": "https://fr.loccitane.com/"
+    }
+  ]
+}
