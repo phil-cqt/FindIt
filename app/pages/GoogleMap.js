@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import storesData from '../data/db.json'; // Import store data from JSON file
+import dotenv from 'dotenv'; // Import dotenv package
+
+dotenv.config(); // Load variables from .env file
 
 const GoogleMapPage = () => {
   const router = useRouter();
@@ -12,7 +15,8 @@ const GoogleMapPage = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyCbvmgC5mB4AgHDE8jcahzx2ISJ_EmNurc',
+    //mettez directement votre clé d'API ici sinon il y aura des problemes d'affichage de la carte google maps, ne la mettez pas dans un fichier.env
+    googleMapsApiKey: dotenv.GOOGLE_MAPS_API_KEY, // Utilisation de la clé d'API depuis .env
   });
 
   useEffect(() => {
