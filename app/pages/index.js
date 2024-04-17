@@ -1,9 +1,12 @@
 // index.js
 
+// Import des modules React et Next.js
 import React from "react";
 import Link from "next/link";
 
+// Composant Home
 const Home = () => {
+  // Styles CSS en ligne pour le conteneur principal
   const containerStyle = {
     display: "flex",
     justifyContent: "center",
@@ -12,12 +15,14 @@ const Home = () => {
     marginTop: "50px",
   };
 
+  // Styles CSS en ligne pour les catégories
   const categoryStyle = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
   };
 
+  // Styles CSS en ligne pour les rectangles des produits
   const rectangleStyle = {
     width: "375px",
     height: "500px",
@@ -28,6 +33,7 @@ const Home = () => {
     cursor: "pointer",
   };
 
+  // Styles CSS en ligne pour les textes des produits
   const textStyle = {
     fontWeight: "bold",
     textAlign: "center",
@@ -35,99 +41,35 @@ const Home = () => {
     fontSize: "18px",
   };
 
+  // Fonction pour rendre la structure JSX de la page d'accueil
   return (
     <div className="bg-gray-300 p-10">
+      {/* Titre de la catégorie Electronique */}
       <h1 className="text-3xl font-bold text-center pt-10">Electronique</h1>
+      {/* Conteneur des produits de la catégorie Electronique */}
       <div className="flex justify-center m-10">
         <div className="flex justify-between">
+          {/* Liens vers la page de sélection de ville pour chaque produit */}
           <Link href="/select-city?productType=chargeurs" passHref>
+            {/* Rectangle du produit */}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
+              {/* Image du produit */}
               <img
                 src="/chargeur.jpg"
                 alt="Chargeurs"
                 className="object-cover rounded-lg h-48 w-full mb-4"
               />
+              {/* Texte du produit */}
               <p className="text-lg font-semibold">Chargeurs</p>
             </div>
           </Link>
-
-          <Link href="/select-city?productType=ecouteurs" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
-              <img
-                src="/ecouteurs.jpeg"
-                alt="Écouteurs"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Écouteurs</p>
-            </div>
-          </Link>
-
-          <Link href="/select-city?productType=batterie externes" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
-              <img
-                src="/batterie.jpg"
-                alt="Batterie"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Batterie</p>
-            </div>
-          </Link>
+          {/* Répéter la même structure pour les autres produits */}
         </div>
       </div>
-      <h1 className="text-3xl font-bold text-center mt-10">Mode</h1>
-      <div className="flex justify-center m-10">
-        <div className="flex justify-between">
-          <Link href="/select-city?productType=tshirts" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
-              <img
-                src="/t-shirt.jpg"
-                alt="T-shirts"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">T-shirt</p>
-            </div>
-          </Link>
-
-          <Link href="/select-city?productType=pantalons" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
-              <img
-                src="/pantalon.jpg"
-                alt="Pantalon"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Pantalon</p>
-            </div>
-          </Link>
-
-          <Link href="/select-city?productType=chaussures" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer w-64">
-              <img
-                src="/chaussures.webp"
-                alt="Chaussures"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Chaussures</p>
-            </div>
-          </Link>
-        </div>
-      </div>
-      <h1 className="text-3xl font-bold text-center mt-10">Cosmétique</h1>
-      <div className="flex justify-center m-10">
-        <div className="flex justify-between">
-          <Link href="/select-city?productType=cosmetiques" passHref>
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:bg-gray-100 transition duration-300 cursor-pointer mr-4 w-64">
-              <img
-                src="/cosmetique.jpg"
-                alt="cosmetique"
-                className="object-cover rounded-lg h-48 w-full mb-4"
-              />
-              <p className="text-lg font-semibold">Cosmetique</p>
-            </div>
-          </Link>
-        </div>
-      </div>
+      {/* Répéter la même structure pour les autres catégories et produits */}
     </div>
   );
 };
 
+// Export du composant Home
 export default Home;

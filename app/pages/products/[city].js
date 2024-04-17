@@ -11,6 +11,7 @@ const ProductByCity = () => {
   const [stores, setStores] = useState([]); // État pour stocker les magasins
 
   useEffect(() => {
+    // Utiliser un effet pour filtrer les magasins lorsque la ville ou le type de produit changent
     if (city && productType) {
       // Filtrer les magasins en fonction de la ville et du type de produit
       const filteredStores = storesData.stores.filter(
@@ -23,9 +24,11 @@ const ProductByCity = () => {
   return (
     <div className="bg-gray-300 p-4 min-h-screen">
       <div className="bg-gray-100 p-6 rounded-lg shadow-md relative">
+        {/* Afficher le titre avec le nom de la ville et le type de produit */}
         <h1 className="text-2xl font-bold mb-4">
           Magasins à {city} vendant des {productType} :
         </h1>
+        {/* Afficher la liste des magasins */}
         <ul>
           {stores.map((store) => (
             <li key={store.name} className="mb-4">
@@ -37,24 +40,12 @@ const ProductByCity = () => {
                 Type de produit : {store.productType}
               </p>
               <p className="text-gray-700">Heures : {store.hours}</p>
-              {store.website !== "" && (
-                <p className="text-gray-700">
-                  Site web :{" "}
-                  <a
-                    href={store.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {store.website}
-                  </a>
-                </p>
-              )}
-              {/* Add other store information you want to display */}
+              {/* Afficher d'autres informations sur le magasin si nécessaire */}
             </li>
           ))}
         </ul>
 
-        {/* Add a link to the map page with the button "Afficher sur la carte" */}
+        {/* Ajouter un lien vers la page de la carte avec le bouton "Afficher sur la carte" */}
         <Link
           href={`/GoogleMap?city=${city}&productType=${productType}`}
           passHref

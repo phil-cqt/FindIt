@@ -1,12 +1,17 @@
 import React from "react";
 
+// Définition du composant Aide
 const Aide = () => {
   return (
+    // Div principale avec une classe de fond gris et hauteur plein écran
     <div className="bg-gray-300 h-screen">
+      {/* Contenu centré avec une largeur maximale et un espacement intérieur */}
       <div className="max-w-3xl mx-auto px-4 py-8 justify text-justify pt-10">
+        {/* Titre principal centré avec une taille de police et une mise en forme en gras */}
         <h1 className="text-3xl font-bold mb-4 text-center">
           Bienvenue sur l&apos;application Find It !
         </h1>
+        {/* Paragraphes de texte expliquant le fonctionnement de l'application */}
         <p className="text-lg mb-4">
           Notre plateforme répertorie une sélection de produits essentiels à
           votre quotidien, disponibles immédiatement ou presque. Vous trouverez
@@ -36,4 +41,5 @@ const Aide = () => {
   );
 };
 
+// Export du composant Aide
 export default Aide;
