@@ -28,7 +28,7 @@ const ProductByCity = () => {
         <h1 className="text-2xl font-bold mb-4">
           Magasins à {city} vendant des {productType} :
         </h1>
-        {/* Afficher la liste des magasins */}
+        {/* affichage de la liste des magasins avec leurs caractéristiques*/}
         <ul>
           {stores.map((store) => (
             <li key={store.name} className="mb-4">
@@ -40,12 +40,11 @@ const ProductByCity = () => {
                 Type de produit : {store.productType}
               </p>
               <p className="text-gray-700">Heures : {store.hours}</p>
-              {/* Afficher d'autres informations sur le magasin si nécessaire */}
             </li>
           ))}
         </ul>
 
-        {/* Ajouter un lien vers la page de la carte avec le bouton "Afficher sur la carte" */}
+        {/* Ajout d'un lien vers la page de la carte avec le bouton "Afficher sur la carte" */}
         <Link
           href={`/GoogleMap?city=${city}&productType=${productType}`}
           passHref
